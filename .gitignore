@@ -1,0 +1,20 @@
+# المجلدات الضخمة التي سببت المشكلة
+node_modules/
+.next/
+out/
+build/
+
+# ملفات البايثون والبيئات الافتراضية
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# ملفات الأسرار (عشان ما حد يسرق مفاتيح Supabase)
+.env
+.env.local
+
+# ملفات النظام
+.DS_Store
+Thumbs.db
